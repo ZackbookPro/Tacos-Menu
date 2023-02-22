@@ -1,0 +1,71 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-image: url(../images/taco-background.jpg);
+  background-size: 400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  padding-top: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: coral;
+}
+
+
+.catchphrase {
+  font-style: italic;
+  text-align: center;
+  
+}
+
+.menu-page {
+  background-color: white;
+  width: 80%;
+  margin: 15px auto;
+  max-width: 500px;
+}
+
+.food {
+  padding-bottom: 5px;
+}
+
+/* This is the code that i got from stack overflow*/
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meat, .price {
+  margin: 1rem 0;
+}
+/*-----------------------------------------------*/
+
+.price {
+  padding-right: 30px;
+}
+
+.meat {
+  padding-left: 30px;
+}
+
+.toppings {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  color: darkgray;
+  font-size: 11px;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+
